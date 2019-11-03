@@ -2,7 +2,7 @@
   "name": "portofolio-rework",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://denicarmo.github.io/home",
+  "homepage": "https://denicarmo.github.io/my-website",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
