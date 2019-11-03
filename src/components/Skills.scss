@@ -1,0 +1,52 @@
+@import '../assets/sass/mixins';
+@import '../assets/sass/variables';
+
+.skills{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    &__content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 645px;
+      flex-flow: column;
+    }
+    
+    &__title{
+      @include texts(24px, 24px, $regular, roboto, $color-text03);
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    
+    &__text{
+      @include texts(18px, 18px, $medium, roboto, $color-text04);
+      text-align: center;
+    }
+    
+    &-responsive{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column;
+      margin-top: 70px;
+      
+      &__title{
+        @include texts(24px, 24px, $regular, roboto, $color-text03);
+        margin-bottom: 20px;
+        text-transform: uppercase;
+      }
+    
+      &__text{
+        @include texts(18px, 18px, $medium, roboto, $color-text04);
+        text-align: center;
+      }
+      
+      &__img img{
+        max-height: 250px;
+        max-width: 350px;
+      }    
+    }
+}

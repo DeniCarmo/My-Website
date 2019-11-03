@@ -1,0 +1,88 @@
+@import '../assets/sass/mixins';
+@import '../assets/sass/variables';
+@import '../assets/sass/keyframes';
+
+.no-overflow{
+    overflow: hidden;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    position: relative;
+    transition: all .5s;
+    z-index: 2;
+
+    &__background{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('../assets/img/banner-full.jpg') no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed;
+        transition: all 0.5 ease-in;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -o-transition: all .5s;
+        z-index: 0;
+
+        &:hover{
+            -ms-transform: scale(1.05);
+            -moz-transform: scale(1.05);
+            -webkit-transform: scale(1.05);
+            -o-transform: scale(1.05);
+            transform: scale(1.05);
+        }
+    }
+
+    &__content{
+        width: 100%;
+        max-width: 645px;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        align-content: center;
+        text-align: center;
+        pointer-events: none;
+        z-index: 3;
+    }
+
+    &__title{
+        @include texts(24px, 24px, $regular, roboto, $color-text01);
+        text-shadow: 1px 1px $color-text02;
+        margin-bottom: 20px;
+    }
+    
+    &__text{
+        @include texts(22px, 22px, $medium, roboto, $color-text01);
+        text-shadow: 1px 1px $color-text02;
+    }
+
+    &__icon{
+        position: relative;
+        bottom: 5px;
+        position: absolute;    
+        transition: all ease-in .2s;
+        animation: downArrow 1s infinite;
+        
+        &:hover{
+          cursor: pointer;
+        }
+        
+        svg{
+          width: 30px;
+          height: 30px;
+        }
+        
+        path{
+          fill: #333;  
+        }
+    }
+
+}

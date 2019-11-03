@@ -1,0 +1,20 @@
+@import '../assets/sass/mixins';
+@import '../assets/sass/variables';
+
+.footer{
+    display: flex;
+    height: 45px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+
+    &__text{
+        @include texts(16px, 16px, $medium, roboto, $color-text04);
+        margin-right: 15px;
+    }
+
+    &__logo{
+        height: 40px;
+        width: 80px;
+    }
+}
