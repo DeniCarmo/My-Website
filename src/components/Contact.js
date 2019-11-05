@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Contact.scss';
-import facebook from '../assets/img/facebook-black.png';
 import linkedin from '../assets/img/linkedin-icon.png';
 import github from '../assets/img/github.png';
 
@@ -10,11 +9,6 @@ export class Contact extends Component {
             <div className="contact" id="contact">
                 <span className="contact__title">Contato</span>
                 <div className="contact__social">
-                    <div className="contact__social-icon">
-                        <a href="https://www.facebook.com/deni.keys" target="_blank">
-                            <img src={facebook} alt=""/>
-                        </a>
-                    </div>
                     <div className="contact__social-icon">
                         <a href="https://github.com/DeniCarmo" target="_blank">
                             <img src={github} alt=""/>
