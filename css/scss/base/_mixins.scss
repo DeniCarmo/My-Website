@@ -1,0 +1,13 @@
+$base-size: 16;
+
+@function convert($target, $context: $base-size){
+    @return ($target / $context) * 1em;
+}
+
+@mixin text($size, $lineHeight, $weight, $color, $family){
+    font-size: convert($size);
+    line-height: $lineHeight;
+    font-weight: $weight;
+    color: $color;
+    font-family: $family;
+}

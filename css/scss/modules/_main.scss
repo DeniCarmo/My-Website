@@ -1,0 +1,34 @@
+html, body{
+    height: auto;
+    min-height: 100%;
+}
+
+body{
+    background-color: $body-bg;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $color-subtitle;
+
+    &:hover{
+        background: $color-main;
+    }
+}
+
+.divider{
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid $color-subtitle;
+    margin: 15px 0;
+}

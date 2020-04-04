@@ -1,0 +1,85 @@
+.works{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-top: 40px;
+
+    .works{
+
+        &-title{
+            @include text(24, 24px, $bold, $color-main, $sulphur);
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            letter-spacing: .5px;
+        }
+
+        &-subtitle{
+            @include text(22, 22px, $bold, $color-subtitle, $sulphur);
+            text-transform: uppercase;
+            letter-spacing: .5px;
+        }
+
+        &-type{
+            @include text(20, 20px, $bold, $color-subtitle, $sulphur);
+            display: block;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            letter-spacing: .5px;
+        }
+
+        &-text{
+            @include text(18, 18px, $regular, $color-subtitle, $sulphur);
+            letter-spacing: .5px;
+            text-align: justify;
+        }
+
+        &-link{
+            @include text(18, 18px, $regular, $color-subtitle, $sulphur);
+            letter-spacing: .5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid $color-main;
+            border-radius: 5px;
+            padding: 10px;
+            text-decoration: none;
+            position: absolute;
+            bottom: 0;
+            right: 15px;
+
+            &:hover{
+                animation: links 2s infinite;
+                text-decoration: none;
+            }
+
+            &:active, &:focus, &:visited{
+                color: $color-subtitle;
+                outline: none;
+                text-decoration: none;
+            }
+        }
+
+        &-screenshot{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+            max-height: 900px;
+
+            img{
+                width: 100%;
+                height: auto;
+                max-height: 900px;
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+.contact{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-bottom: 50px;
+    padding-top: 40px;
+
+    .contact{
+
+        &-title{
+            @include text(24, 24px, $bold, $color-main, $sulphur);
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            letter-spacing: .5px;
+        }
+
+        &-items{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: column;
+            margin: 0 20px;
+
+            &__wrapper{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        &-item{
+
+            &__link{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-flow: column;
+            }
+
+            &__icon{
+                margin-bottom: 5px;
+
+                svg{
+                    width: 80px;
+                    height: 80px;
+
+                    path{
+                        transition: all .5s ease-in-out;
+                        fill: #787878;
+                    }
+                }
+
+                &:hover{
+
+                    svg{
+
+                        path{
+                            fill: $color-subtitle;
+                        }
+                    }
+                }
+            }
+
+            &__title{
+                @include text(20, 20px, $bold, $color-subtitle, $sulphur);
+                letter-spacing: .5px;
+            }
+        }
+
+        &-email{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 40px;
+
+            &__text{
+                @include text(18, 18px, $regular, $color-main, $sulphur);
+                letter-spacing: .5px;
+            }
+
+            &__link{
+                @include text(18, 18px, $regular, $color-subtitle, $sulphur);
+                letter-spacing: .5px;
+                animation: links 1s infinite;
+            }
+        }
+    }
+}
