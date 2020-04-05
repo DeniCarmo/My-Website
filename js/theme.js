@@ -1,8 +1,12 @@
 $(document).ready(() => {
-    console.log('Working');
+    let $body = $('body'),
+        $html = $('html'),
+        $window = $(window),
+        $document = $(document);
 
     // Functions
     goto_animation();
+    menu_mobile();
 
     function goto_animation(){
         $('a[href^="#"]').on('click', function(e){
@@ -14,15 +18,17 @@ $(document).ready(() => {
                 $('html, body').stop().animate({scrollTop: target.offset().top }, 800);
             }
         });
+    }
 
-        /* $('a[href^="#"]').on('click', function(event) {
-            var target = $(this.getAttribute('href'));
-            if( target.length ) {
-                event.preventDefault();
-                $('html, body').stop().animate({
-                    scrollTop: target.offset().top
-                }, 1000);
-            }
-        }); */
+    function menu_mobile(){
+
+        $body.on('click', '#menuOpen', () => {
+            $('#menuMobile').addClass('menu-mobile__toggle');
+        });
+
+        $body.on('click', '#menuClose', () => {
+            $('#menuMobile').removeClass('menu-mobile__toggle');
+        });
+
     }
 });

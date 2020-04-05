@@ -24,6 +24,11 @@
             @include text(22, 22px, $bold, $color-subtitle, $sulphur);
             text-transform: uppercase;
             letter-spacing: .5px;
+
+            @media(max-width: 576px){
+                display: block;
+                margin-top: 25px;
+            }
         }
 
         &-type{
@@ -54,6 +59,11 @@
             position: absolute;
             bottom: 0;
             right: 15px;
+
+            @media(max-width: 576px){
+                margin-top: 15px;
+                position: initial;
+            }
 
             &:hover{
                 animation: links 2s infinite;

@@ -99,5 +99,9 @@
                 fill: $color-white;
             }
         }
+
+        @media(max-width: 992px){
+            transform: translateX(50%);
+        }
     }
 }
