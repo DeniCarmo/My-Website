@@ -59,21 +59,55 @@
             position: absolute;
             bottom: 0;
             right: 15px;
+            overflow: hidden;
+            transition: all .5s ease-in-out;
 
             @media(max-width: 576px){
                 margin-top: 15px;
                 position: initial;
             }
 
-            &:hover{
-                animation: links 2s infinite;
-                text-decoration: none;
-            }
+            @media(min-width: 1200px){
 
-            &:active, &:focus, &:visited{
-                color: $color-subtitle;
-                outline: none;
-                text-decoration: none;
+                &:hover{
+                    text-decoration: none;
+                    color: $body-bg;
+                    border: 1px solid $body-bg;
+    
+                    &:before{
+                        transform: translateX(0);
+                    }
+    
+                    &:after{
+                        transform: translateX(0);
+                    }
+                }
+
+                &:before{
+                    content: ' ';
+                    width: 50%;
+                    height: 100%;
+                    background: $color-main;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    transform: translateX(-101%);
+                    transition: all .5s ease-in-out;
+                    z-index: -1;
+                }
+    
+                &:after{
+                    content: ' ';
+                    width: 50%;
+                    height: 100%;
+                    background: $color-main;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    transform: translateX(101%);
+                    transition: all .5s ease-in-out;
+                    z-index: -1;
+                }
             }
         }
 

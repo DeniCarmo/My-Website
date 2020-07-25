@@ -1,0 +1,23 @@
+.mask{
+
+    &-active{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        z-index: 10;
+
+        body{
+            overflow: hidden;
+        }
+
+        .mask{
+            height: 100%;
+            width: 100%;
+            background: rgba($color-main, .7);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 99;
+        }
+    }
+}
