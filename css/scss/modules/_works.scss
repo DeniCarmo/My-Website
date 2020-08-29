@@ -31,6 +31,10 @@
             }
         }
 
+        &-item{
+            display: flex;
+        }
+
         &-type{
             @include text(20, 20px, $bold, $color-subtitle, $sulphur);
             display: block;

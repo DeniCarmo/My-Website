@@ -28,6 +28,26 @@
             text-align: justify;
         }
 
+        &-item{
+
+            &-title{
+                @include text(24, 24px, $bold, $color-main, $sulphur);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+                letter-spacing: .5px;
+            }
+    
+            &-text{
+                @include text(20, 20px, $regular, $color-subtitle, $sulphur);
+                letter-spacing: .5px;
+                text-align: justify;
+            }
+
+        }
+
         &-img{
             width: 100%;
             display: flex;

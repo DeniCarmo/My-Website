@@ -362,6 +362,26 @@ body {
     font-family: "Sulphur Point", sans-Serif;
     letter-spacing: .5px;
     text-align: justify; }
+  .skills .skills-item-title {
+    font-size: 1.5em;
+    line-height: 24px;
+    font-weight: 800;
+    color: #212121;
+    font-family: "Sulphur Point", sans-Serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: .5px; }
+  .skills .skills-item-text {
+    font-size: 1.25em;
+    line-height: 20px;
+    font-weight: 400;
+    color: #333232;
+    font-family: "Sulphur Point", sans-Serif;
+    letter-spacing: .5px;
+    text-align: justify; }
   .skills .skills-img {
     width: 100%;
     display: flex;
@@ -460,6 +480,8 @@ body {
       .works .works-subtitle {
         display: block;
         margin-top: 25px; } }
+  .works .works-item {
+    display: flex; }
   .works .works-type {
     font-size: 1.25em;
     line-height: 20px;
@@ -643,10 +665,9 @@ body {
 .mask-active {
   height: 100%;
   width: 100%;
+  overflow: hidden;
   position: relative;
   z-index: 10; }
-  .mask-active body {
-    overflow: hidden; }
   .mask-active .mask {
     height: 100%;
     width: 100%;
@@ -655,3 +676,57 @@ body {
     top: 0;
     left: 0;
     z-index: 99; }
+
+.modal-lang {
+  width: 100%;
+  max-width: 580px;
+  height: auto;
+  min-height: 450px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background: #fefefe;
+  border: 1px solid #212121;
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999; }
+  .modal-lang-show {
+    display: flex !important; }
+  .modal-lang .modal-lang__title {
+    font-size: 2.375em;
+    line-height: 38px;
+    font-weight: 800;
+    color: #212121;
+    font-family: "Sulphur Point", sans-Serif;
+    text-align: center;
+    display: block; }
+  .modal-lang .modal-lang__subtitle {
+    font-size: 1.375em;
+    line-height: 22px;
+    font-weight: 800;
+    color: #212121;
+    font-family: "Sulphur Point", sans-Serif;
+    text-align: center;
+    display: block;
+    margin: 20px 0; }
+  .modal-lang .modal-lang-item__title {
+    font-size: 2.125em;
+    line-height: 34px;
+    font-weight: 800;
+    color: #212121;
+    font-family: "Sulphur Point", sans-Serif;
+    text-align: center;
+    display: block; }
+    .modal-lang .modal-lang-item__title--pt {
+      background: -webkit-linear-gradient(#1433fc, #3bcc58, #f9fc14);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      cursor: pointer; }
+    .modal-lang .modal-lang-item__title--en {
+      background: -webkit-linear-gradient(#1433fc, #ffffff, #fc0303);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      cursor: pointer; }
