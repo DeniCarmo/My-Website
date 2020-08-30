@@ -16,16 +16,21 @@
         &-title{
             @include text(24, 24px, $bold, $color-main, $sulphur);
             text-transform: uppercase;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            text-decoration: underline;
             letter-spacing: .5px;
         }
 
         &-subtitle{
-            @include text(22, 22px, $bold, $color-subtitle, $sulphur);
+            @include text(22, 30px, $bold, $color-subtitle, $sulphur);
             text-transform: uppercase;
             letter-spacing: .5px;
+            text-align: center;
+            margin-bottom: 10px;
+            width: 100%;
 
             @media(max-width: 576px){
+                @include text(18, 18px, $bold, $color-subtitle, $sulphur);
                 display: block;
                 margin-top: 25px;
             }
@@ -33,6 +38,17 @@
 
         &-item{
             display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+
+            &:hover, &:focus, &:active, &:visited{
+                outline: none !important;
+                text-decoration: none !important;
+            }
+
+            @media(max-width: 768px){
+                flex-flow: column;
+            }
         }
 
         &-type{
@@ -48,6 +64,39 @@
             @include text(18, 18px, $regular, $color-subtitle, $sulphur);
             letter-spacing: .5px;
             text-align: justify;
+            display: block;
+            margin-top: 15px;
+        }
+
+        &-description{
+            @include text(16, 16px, $regular, $color-subtitle, $sulphur);
+            letter-spacing: .5px;
+            text-align: justify;
+            display: block;
+            margin-top: 15px;
+        }
+
+        &-details{
+
+            &:hover, &:focus, &:active, &:visited{
+                outline: none !important;
+                text-decoration: none !important;
+            }
+        }
+
+        &-platform{
+            @include text(16, 16px, $regular, $color-subtitle, $sulphur);
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+
+            &-logo{
+
+                svg{
+                    width: 100px;
+                    height: 35px;
+                }
+            }
         }
 
         &-link{
@@ -127,6 +176,38 @@
                 width: 100%;
                 height: auto;
                 max-height: 900px;
+            }
+        }
+
+        &-carousel{
+
+            &-js{
+                width: 100%;
+                position: relative;
+            }
+
+            &-icon{
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                cursor: pointer;
+
+                svg{
+                    width: 30px;
+                    height: 50px;
+
+                    path{
+                        fill: $color-main;
+                    }
+                }
+
+                &-next{
+                    right: 0;
+                }
+
+                &-prev{
+                    left: 0;
+                }
             }
         }
     }

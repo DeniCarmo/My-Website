@@ -1,0 +1,46 @@
+.lang-switcher{
+    width: 100%;
+    max-width: 80px;
+    height: 30px;
+    background: $body-bg;
+    border: 1px solid $color-main;
+    border-radius: 25px;
+    overflow: hidden;
+    position: fixed;
+    right: 25px;
+    top: 8px;
+    z-index: 999;
+
+    @media(max-width: 480px){
+        top: unset;
+        bottom: 10px;
+        right: 5px;
+    }
+
+    .lang-switcher{
+
+        &-item{
+            transition: all .3s ease-in-out;
+            width: 40px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: $modal-bg;
+            border-radius: 25px;
+            padding: 0 5px;
+
+            cursor: pointer;
+        }
+
+        &-pt{
+            @include text(11, 11px, $semiBold, $color-main, $sulphur);
+            transform: translate3d(0, 0, 0);
+        }
+
+        &-en{
+            @include text(11, 11px, $semiBold, $color-main, $sulphur);
+            transform: translate3d(100%, 0, 0);
+        }
+    }
+}

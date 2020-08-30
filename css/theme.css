@@ -14,6 +14,10 @@
   100% {
     color: #333; } }
 
+a:hover, a:focus, a:active, a:visited {
+  outline: none !important;
+  text-decoration: none !important; }
+
 @font-face {
   font-family: 'Sulphur Point';
   src: url(../css/fonts/sulphurpoint-regular-webfont.woff), url(../css/fonts/sulphurpoint-regular-webfont.woff2); }
@@ -146,7 +150,8 @@ body {
   height: auto;
   min-height: 45px;
   max-height: 45px;
-  transition: all .5s ease-in-out; }
+  transition: all .5s ease-in-out;
+  position: relative; }
   .header-sticky {
     position: fixed;
     top: 0;
@@ -161,7 +166,7 @@ body {
   height: 45px; }
   .logo-img {
     width: 100%;
-    max-width: 80px;
+    max-width: 45px;
     height: auto;
     max-height: 35px;
     min-height: 35px; }
@@ -466,22 +471,39 @@ body {
     color: #212121;
     font-family: "Sulphur Point", sans-Serif;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    text-decoration: underline;
     letter-spacing: .5px; }
   .works .works-subtitle {
     font-size: 1.375em;
-    line-height: 22px;
+    line-height: 30px;
     font-weight: 800;
     color: #333232;
     font-family: "Sulphur Point", sans-Serif;
     text-transform: uppercase;
-    letter-spacing: .5px; }
+    letter-spacing: .5px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%; }
     @media (max-width: 576px) {
       .works .works-subtitle {
+        font-size: 1.125em;
+        line-height: 18px;
+        font-weight: 800;
+        color: #333232;
+        font-family: "Sulphur Point", sans-Serif;
         display: block;
         margin-top: 25px; } }
   .works .works-item {
-    display: flex; }
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; }
+    .works .works-item:hover, .works .works-item:focus, .works .works-item:active, .works .works-item:visited {
+      outline: none !important;
+      text-decoration: none !important; }
+    @media (max-width: 768px) {
+      .works .works-item {
+        flex-flow: column; } }
   .works .works-type {
     font-size: 1.25em;
     line-height: 20px;
@@ -500,7 +522,34 @@ body {
     color: #333232;
     font-family: "Sulphur Point", sans-Serif;
     letter-spacing: .5px;
-    text-align: justify; }
+    text-align: justify;
+    display: block;
+    margin-top: 15px; }
+  .works .works-description {
+    font-size: 1em;
+    line-height: 16px;
+    font-weight: 400;
+    color: #333232;
+    font-family: "Sulphur Point", sans-Serif;
+    letter-spacing: .5px;
+    text-align: justify;
+    display: block;
+    margin-top: 15px; }
+  .works .works-details:hover, .works .works-details:focus, .works .works-details:active, .works .works-details:visited {
+    outline: none !important;
+    text-decoration: none !important; }
+  .works .works-platform {
+    font-size: 1em;
+    line-height: 16px;
+    font-weight: 400;
+    color: #333232;
+    font-family: "Sulphur Point", sans-Serif;
+    display: flex;
+    align-items: center;
+    margin-top: 15px; }
+    .works .works-platform-logo svg {
+      width: 100px;
+      height: 35px; }
   .works .works-link {
     font-size: 1.125em;
     line-height: 18px;
@@ -566,6 +615,23 @@ body {
       width: 100%;
       height: auto;
       max-height: 900px; }
+  .works .works-carousel-js {
+    width: 100%;
+    position: relative; }
+  .works .works-carousel-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer; }
+    .works .works-carousel-icon svg {
+      width: 30px;
+      height: 50px; }
+      .works .works-carousel-icon svg path {
+        fill: #212121; }
+    .works .works-carousel-icon-next {
+      right: 0; }
+    .works .works-carousel-icon-prev {
+      left: 0; }
 
 .contact {
   width: 100%;
@@ -677,56 +743,60 @@ body {
     left: 0;
     z-index: 99; }
 
-.modal-lang {
+.lang-switcher {
   width: 100%;
-  max-width: 580px;
-  height: auto;
-  min-height: 450px;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
+  max-width: 80px;
+  height: 30px;
   background: #fefefe;
   border: 1px solid #212121;
-  border-radius: 5px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  overflow: hidden;
+  position: fixed;
+  right: 25px;
+  top: 8px;
   z-index: 999; }
-  .modal-lang-show {
-    display: flex !important; }
-  .modal-lang .modal-lang__title {
-    font-size: 2.375em;
-    line-height: 38px;
-    font-weight: 800;
+  @media (max-width: 480px) {
+    .lang-switcher {
+      top: unset;
+      bottom: 10px;
+      right: 5px; } }
+  .lang-switcher .lang-switcher-item {
+    transition: all .3s ease-in-out;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e0e0e0;
+    border-radius: 25px;
+    padding: 0 5px;
+    cursor: pointer; }
+  .lang-switcher .lang-switcher-pt {
+    font-size: 0.6875em;
+    line-height: 11px;
+    font-weight: 600;
     color: #212121;
     font-family: "Sulphur Point", sans-Serif;
-    text-align: center;
-    display: block; }
-  .modal-lang .modal-lang__subtitle {
-    font-size: 1.375em;
-    line-height: 22px;
-    font-weight: 800;
+    transform: translate3d(0, 0, 0); }
+  .lang-switcher .lang-switcher-en {
+    font-size: 0.6875em;
+    line-height: 11px;
+    font-weight: 600;
     color: #212121;
     font-family: "Sulphur Point", sans-Serif;
-    text-align: center;
-    display: block;
-    margin: 20px 0; }
-  .modal-lang .modal-lang-item__title {
-    font-size: 2.125em;
-    line-height: 34px;
-    font-weight: 800;
-    color: #212121;
-    font-family: "Sulphur Point", sans-Serif;
-    text-align: center;
-    display: block; }
-    .modal-lang .modal-lang-item__title--pt {
-      background: -webkit-linear-gradient(#1433fc, #3bcc58, #f9fc14);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      cursor: pointer; }
-    .modal-lang .modal-lang-item__title--en {
-      background: -webkit-linear-gradient(#1433fc, #ffffff, #fc0303);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      cursor: pointer; }
+    transform: translate3d(100%, 0, 0); }
+
+.nidi-logo {
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+  @media (max-width: 576px) {
+    .nidi-logo {
+      position: initial;
+      margin: 15px 0; } }
+  .nidi-logo .nidi-logo {
+    margin: 15px 0; }
+    @media (max-width: 768px) {
+      .nidi-logo .nidi-logo-link svg {
+        margin: 0 auto;
+        display: block; } }

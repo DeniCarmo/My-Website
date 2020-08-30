@@ -6,8 +6,7 @@ $color-main: #212121;
 $color-subtitle: #333232;
 $color-grey: #ccc;
 $modal-bg: #e0e0e0;
-$br-bg: -webkit-linear-gradient(#1433fc,#3bcc58, #f9fc14);
-$us-bg: -webkit-linear-gradient(#1433fc,#ffffff, #fc0303);
+$bg-green: #4aff77;
 
 // Fonts
 
@@ -28,4 +27,12 @@ $bold: 800;
     0% {color: #333}
     50% {color: #787878}
     100% {color: #333}
+}
+
+a{
+
+    &:hover, &:focus, &:active, &:visited{
+        outline: none !important;
+        text-decoration: none !important;
+    }
 }
