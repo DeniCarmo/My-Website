@@ -359,6 +359,14 @@ body {
     text-transform: uppercase;
     margin-bottom: 20px;
     letter-spacing: .5px; }
+  .skills .skills-subtitle {
+    font-size: 1.25em;
+    line-height: 20px;
+    font-weight: 400;
+    color: #333232;
+    font-family: "Sulphur Point", sans-Serif;
+    letter-spacing: .5px;
+    text-align: justify; }
   .skills .skills-text {
     font-size: 1.25em;
     line-height: 20px;

@@ -73,7 +73,7 @@ $(document).ready(() => {
         });
     }
 
-    function modal_lang(){
+    function lang_switcher(){
 
         $('.lang-switcher-item').click(function(){
 

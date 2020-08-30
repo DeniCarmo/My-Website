@@ -22,6 +22,12 @@
             letter-spacing: .5px;
         }
 
+        &-subtitle{
+            @include text(20, 20px, $regular, $color-subtitle, $sulphur);
+            letter-spacing: .5px;
+            text-align: justify;
+        }
+
         &-text{
             @include text(20, 20px, $regular, $color-subtitle, $sulphur);
             letter-spacing: .5px;
