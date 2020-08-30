@@ -9,7 +9,7 @@ $(document).ready(() => {
     menu_mobile();
     banner_icon();
     header();
-    modal_lang();
+    lang_switcher();
 
     $('.works-carousel-js').not('.slick-initialized').slick({
         arrows: true,
