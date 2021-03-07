@@ -10,6 +10,7 @@
     right: 25px;
     top: 8px;
     z-index: 999;
+    cursor: pointer;
 
     @media(max-width: 480px){
         top: unset;
@@ -29,8 +30,6 @@
             background: $modal-bg;
             border-radius: 25px;
             padding: 0 5px;
-
-            cursor: pointer;
         }
 
         &-pt{

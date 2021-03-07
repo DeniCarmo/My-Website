@@ -345,7 +345,7 @@ body {
   max-width: 600px;
   height: auto;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 35px;
   margin-bottom: 15px; }
   .skills .skills-title {
     font-size: 1.5em;
@@ -385,7 +385,7 @@ body {
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     letter-spacing: .5px; }
   .skills .skills-item-text {
     font-size: 1.25em;
@@ -762,7 +762,8 @@ body {
   position: fixed;
   right: 25px;
   top: 8px;
-  z-index: 999; }
+  z-index: 999;
+  cursor: pointer; }
   @media (max-width: 480px) {
     .lang-switcher {
       top: unset;
@@ -777,8 +778,7 @@ body {
     justify-content: center;
     background: #e0e0e0;
     border-radius: 25px;
-    padding: 0 5px;
-    cursor: pointer; }
+    padding: 0 5px; }
   .lang-switcher .lang-switcher-pt {
     font-size: 0.6875em;
     line-height: 11px;

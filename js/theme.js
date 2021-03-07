@@ -76,21 +76,21 @@ $(document).ready(() => {
 
     function lang_switcher(){
 
-        $('.lang-switcher-item').click(function(){
+        $('.lang-switcher').click(function(){
 
-            if($('.lang-switcher-item').data('lang') == 'pt'){
-                $('.lang-switcher-item').removeClass('lang-switcher-pt');
-                $('.lang-switcher-item').addClass('lang-switcher-en');
-                $('.lang-switcher-item').text('EN-US');
-                $('.lang-switcher-item').data('lang', 'en');
+            if($(this).find('.lang-switcher-item').data('lang') == 'pt'){
+                $(this).find('.lang-switcher-item').removeClass('lang-switcher-pt');
+                $(this).find('.lang-switcher-item').addClass('lang-switcher-en');
+                $(this).find('.lang-switcher-item').text('EN-US');
+                $(this).find('.lang-switcher-item').data('lang', 'en');
             }else{
-                $('.lang-switcher-item').addClass('lang-switcher-pt');
-                $('.lang-switcher-item').removeClass('lang-switcher-en');
-                $('.lang-switcher-item').text('PT-BR');
-                $('.lang-switcher-item').data('lang', 'pt');
+                $(this).find('.lang-switcher-item').addClass('lang-switcher-pt');
+                $(this).find('.lang-switcher-item').removeClass('lang-switcher-en');
+                $(this).find('.lang-switcher-item').text('PT-BR');
+                $(this).find('.lang-switcher-item').data('lang', 'pt');
             }
 
-            let lang = $(this).data('lang'),
+            let lang = $(this).find('.lang-switcher-item').data('lang'),
                 text_lang = new Lang();
 
             if(lang == 'pt'){
