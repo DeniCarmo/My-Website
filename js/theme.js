@@ -2,7 +2,8 @@ $(document).ready(() => {
     let $body = $('body'),
         $html = $('html'),
         $window = $(window),
-        $document = $(document);
+        $document = $(document),
+        workCounter = 1;
 
     // Functions
     goto_animation();
@@ -131,6 +132,15 @@ $(document).ready(() => {
             $('#works-item1 .works-link-js').attr('href', text_lang.jobs_item1_link);
             $('#works-item1 .works-link-js').attr('title', text_lang.jobs_item1_link_title);
             $('#works-item1 .works-description').text(text_lang.jobs_item1_description);
+
+            $('#works-item2 .works-subtitle').text(text_lang.jobs_item2_subtitle);
+            $('#works-item2 .works-screenshot img').attr('alt', text_lang.jobs_item2_title);
+            $('#works-item2 .works-screenshot img').attr('title', text_lang.jobs_item2_title);
+            $('#works-item2 .works-text').text(text_lang.jobs_item2_text);
+            $('#works-item2 .works-link').text(text_lang.jobs_button_text);
+            $('#works-item2 .works-link-js').attr('href', text_lang.jobs_item2_link);
+            $('#works-item2 .works-link-js').attr('title', text_lang.jobs_item2_link_title);
+            $('#works-item2 .works-description').text(text_lang.jobs_item2_description);
 
             $('.contact-title').text(text_lang.contact_title);
 

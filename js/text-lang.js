@@ -24,6 +24,11 @@ class Lang{
             "jobs_item1_description": "Trabalhei em todo o front end da loja Ateliê Materno juntamente com a NIDI Digital, agência na qual trabalho atualmente como Desenvolvedor Front End.",
             "jobs_item1_link": "https://www.ateliematerno.com.br/",
             "jobs_item1_link_title": "Ateliê Materno - Brinquedos de madeira feitos com amor",
+            "jobs_item2_title": "Bola de Tenis Delivery",
+            "jobs_item2_text": "Bolas de tênis das principais marcas com os melhores preços! E mais:  acessórios, roupas, calçados, raquetes, cordas, raqueteiras e beach tennis",
+            "jobs_item2_description": "A loja virtual Bola de Tenis Delivery foi desenvolvida em parceria com a Agência NIDI Digital onde trabalho atualmente como Desenvolvedor Front End.",
+            "jobs_item2_link": "https://www.boladetenisdelivery.com/",
+            "jobs_item2_link_title": "Bola de Tenis Delivery - Bolas de tênis das principais marcas com os melhores preços! E mais:  acessórios, roupas, calçados, raquetes, cordas, raqueteiras e beach tennis",
             "jobs_platform": "Plataforma:",
             "jobs_platform_tray_content":
                 `<a href="https://tray.com.br" class="works-platform-logo" title="Plataforma de e-commerce integrada com os maiores marketplaces | Tray" target="_blank">
@@ -59,6 +64,11 @@ class Lang{
             "jobs_item1_description": "I've worked on the whole front end of the Ateliê Materno's virtual store alongside with NIDI Digital, agency wich I work as a Front End Developer.",
             "jobs_item1_link": "https://www.ateliematerno.com.br/",
             "jobs_item1_link_title": "Ateliê Materno - Wooden toys made with love.",
+            "jobs_item2_title": "Bola de Tenis Delivery",
+            "jobs_item2_text": "Tennis balls from top brands at the best prices! And more: accessories, clothes, shoes, rackets, ropes, rackets and beach tennis",
+            "jobs_item2_description": "The e-commerce Bola de Tenis Delivery was developed in partnership with the NIDI Digital Agency where I work as Front End Developer.",
+            "jobs_item2_link": "https://www.boladetenisdelivery.com/",
+            "jobs_item2_link_title": "Tennis balls from top brands at the best prices! And more: accessories, clothes, shoes, rackets, ropes, rackets and beach tennis",
             "jobs_platform": "Platform:",
             "jobs_platform_tray_content":
                 `<a href="https://tray.com.br" class="works-platform-logo" title="Plataforma de e-commerce integrada com os maiores marketplaces | Tray" target="_blank">
