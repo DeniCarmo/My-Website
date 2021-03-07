@@ -170,6 +170,11 @@ body {
     height: auto;
     max-height: 35px;
     min-height: 35px; }
+  .logo-title {
+    font-size: 0;
+    line-height: 0;
+    height: auto;
+    margin: 0; }
 
 .menu {
   display: flex;

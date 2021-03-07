@@ -29,6 +29,11 @@ class Lang{
             "jobs_item2_description": "A loja virtual Bola de Tenis Delivery foi desenvolvida em parceria com a Agência NIDI Digital onde trabalho atualmente como Desenvolvedor Front End.",
             "jobs_item2_link": "https://www.boladetenisdelivery.com/",
             "jobs_item2_link_title": "Bola de Tenis Delivery - Bolas de tênis das principais marcas com os melhores preços! E mais:  acessórios, roupas, calçados, raquetes, cordas, raqueteiras e beach tennis",
+            "jobs_item3_title": "Nadi Florais",
+            "jobs_item3_text": "Seu espaço para cura Natural",
+            "jobs_item3_description": "A loja virtual Nadi Florais foi desenvolvida em parceria com a Agência Nidi Digital. Atuei no desenvolvimento de todo o front end.",
+            "jobs_item3_link": "https://www.nadiflorais.com/",
+            "jobs_item3_link_title": "Nadi Florais, seu espaço para cura Natural",
             "jobs_platform": "Plataforma:",
             "jobs_platform_tray_content":
                 `<a href="https://tray.com.br" class="works-platform-logo" title="Plataforma de e-commerce integrada com os maiores marketplaces | Tray" target="_blank">
@@ -69,6 +74,11 @@ class Lang{
             "jobs_item2_description": "The e-commerce Bola de Tenis Delivery was developed in partnership with the NIDI Digital Agency where I work as Front End Developer.",
             "jobs_item2_link": "https://www.boladetenisdelivery.com/",
             "jobs_item2_link_title": "Tennis balls from top brands at the best prices! And more: accessories, clothes, shoes, rackets, ropes, rackets and beach tennis",
+            "jobs_item3_title": "Nadi Florais",
+            "jobs_item3_text": "Your space for natural healing",
+            "jobs_item3_description": "The e-commerce Nadi Florais was developed alongside with the Nidi Digital Agency. I've worked in the whole front end development.",
+            "jobs_item3_link": "https://www.nadiflorais.com/",
+            "jobs_item3_link_title": "Nadi Florais, your space for natural healing.",
             "jobs_platform": "Platform:",
             "jobs_platform_tray_content": `<a href="https://tray.com.br" class="works-platform-logo" title="Plataforma de e-commerce integrada com os maiores marketplaces | Tray" target="_blank"><svg id="logo" viewBox="0 0 173.333 79.333"><path d="M115.042 11.627c0 15.874 9.152 31.139 12.752 36.444a4.584 4.584 0 0 0 3.794 2.014h23.196c1.521 0 2.94-.755 3.794-2.014 3.6-5.305 12.752-20.57 12.752-36.444h-56.288z" fill="#6596c6"></path><path d="M117.17 51.328zM96.869 18.162h5.442-5.442zM111.113 63.994zM117.549 51.707zM135.298 23.061c1.657-6.835 2.308-11.364 2.308-11.364h-8.039c-.459 4.108-1.31 8.65-2.515 13.433a147.066 147.066 0 0 1-4.469 14.419 157.18 157.18 0 0 1-1.851 4.815l-.275-.289c-.06-.063-.12-.125-.18-.19-1.41-2.244-3.503-5.936-5.49-10.805l-.152-.376a76.136 76.136 0 0 1-.811-2.108c-1.922-5.22-3.613-11.562-4.298-18.771v-.062H96.869v6.399h5.442a78.542 78.542 0 0 0 3.281 12.167c2.175 6.09 5.492 13.035 10.547 19.79.195.267.411.529.638.785a13.09 13.09 0 0 0 .772.804 152.685 152.685 0 0 1-2.665 5.444 136.34 136.34 0 0 1-3.769 6.844h7.388a90.94 90.94 0 0 0 4.543-7.626 114.321 114.321 0 0 0 4.213-8.805 141.68 141.68 0 0 0 4.141-10.92 149.007 149.007 0 0 0 1.322-4.143 170.152 170.152 0 0 0 2.497-9.115l.079-.326z" fill="#00275f"></path><circle cx="112.077" cy="72.601" r="4.906" fill="#00275f"></circle><circle cx="156.334" cy="72.601" r="4.906" fill="#00275f"></circle><g fill="#00275f"><path d="M20.801 52.826c-8.194 0-13.014-4.223-13.014-14.104V18.003H2.003v-6.534h5.784V2.225l8.113-.398v9.642h10.041v6.534H15.9v20.639c0 5.339 2.33 7.411 6.266 7.411 1.687 0 3.454-.239 4.659-.558l.482 6.534a26.394 26.394 0 0 1-6.506.797zM52.332 10.512c2.249 0 4.258.239 5.704.558l-1.125 6.773c-1.205-.398-2.731-.558-4.017-.558-4.017 0-7.069.877-9.319 2.072V51.87h-8.114V14.337c4.178-2.31 10.685-3.825 16.871-3.825zM77.037 52.826c-10.524 0-15.825-5.1-15.825-12.112 0-8.287 6.668-12.351 15.825-12.351 2.731 0 6.025.319 8.515.876v-3.347c0-5.578-3.053-8.606-9.399-8.606-3.776 0-7.632.717-10.765 1.992l-1.607-6.455c3.294-1.355 8.435-2.311 13.175-2.311 11.005 0 16.548 5.658 16.548 15.778v22.87c-3.373 1.913-8.916 3.666-16.467 3.666zm8.515-7.73V34.657c-2.249-.558-4.74-.956-7.551-.956-4.981 0-8.676 1.753-8.676 6.694 0 4.223 3.053 6.375 8.435 6.375 3.695 0 6.266-.797 7.792-1.674z"></path></g></svg></a>`,
             "jobs_platform_tray_link_title": "E-commerce platform integrated with the biggest marketplaces | Tray",

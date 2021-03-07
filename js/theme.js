@@ -142,6 +142,15 @@ $(document).ready(() => {
             $('#works-item2 .works-link-js').attr('title', text_lang.jobs_item2_link_title);
             $('#works-item2 .works-description').text(text_lang.jobs_item2_description);
 
+            $('#works-item2 .works-subtitle').text(text_lang.jobs_item3_subtitle);
+            $('#works-item2 .works-screenshot img').attr('alt', text_lang.jobs_item3_title);
+            $('#works-item2 .works-screenshot img').attr('title', text_lang.jobs_item3_title);
+            $('#works-item2 .works-text').text(text_lang.jobs_item3_text);
+            $('#works-item2 .works-link').text(text_lang.jobs_button_text);
+            $('#works-item2 .works-link-js').attr('href', text_lang.jobs_item3_link);
+            $('#works-item2 .works-link-js').attr('title', text_lang.jobs_item3_link_title);
+            $('#works-item2 .works-description').text(text_lang.jobs_item3_description);
+
             $('.contact-title').text(text_lang.contact_title);
 
             $('.madeby-item__text').text(text_lang.developed_by);
