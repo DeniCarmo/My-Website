@@ -125,8 +125,8 @@ $(document).ready(() => {
             $('.works-platform-logo').attr('title', text_lang.jobs_platform_tray_link_title);
 
             $('#works-item1 .works-subtitle').text(text_lang.jobs_item1_subtitle);
-            $('#works-item1 .works-screenshot img').attr('alt', text_lang.jobs_item1_title);
             $('#works-item1 .works-screenshot img').attr('title', text_lang.jobs_item1_title);
+            $('#works-item1 .works-screenshot img').attr('alt', text_lang.jobs_item1_title);
             $('#works-item1 .works-text').text(text_lang.jobs_item1_text);
             $('#works-item1 .works-link').text(text_lang.jobs_button_text);
             $('#works-item1 .works-link-js').attr('href', text_lang.jobs_item1_link);
