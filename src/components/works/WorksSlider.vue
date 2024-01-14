@@ -14,7 +14,7 @@
         <h2 class="works-subtitle">{{ item.title }}</h2>
         <a class="works-screenshot" :href="item.url" target="_blank">
           <img
-            :src="getImgUrl('../../assets/works/img/', item.img.default)"
+            :src="getImgUrl('/works/img/', item.img.default)"
             :alt="item.img.alt"
             :title="item.img.alt"
           />
@@ -41,7 +41,7 @@
               :key="`${tech.name}-${i}`"
             >
               <img
-                :src="getImgUrl('../../assets/works/stack/', tech.logo)"
+                :src="getImgUrl('/works/stack/', tech.logo)"
                 :alt="tech.name"
                 class="works-stack__img"
                 v-if="tech.logo"

@@ -1,4 +1,4 @@
-import{a as o}from"./applySEO-c23d6e36.js";import{_ as l,r as d,g as c,w as r,T as u,o as p,b as t,t as a,k as n,f as m,p as _,l as h}from"./index-b7d6360c.js";const v={data(){return{content:{pt:{text:`
+import{a as o}from"./applySEO-c23d6e36.js";import{_ as l,r as d,g as c,w as r,T as u,o as p,b as t,t as a,k as n,f as m,p as _,l as h}from"./index-0f51eb75.js";const v={data(){return{content:{pt:{text:`
             Meu nome é Denilson, mas pode me chamar de Deni, sou um desenvolvedor front end e moro em
             Araçatuba - SP. Esta é a minha casa na internet, aqui verá minhas
             habilidades, meus trabalhos e meus projetos. Estou sempre estudando e procurando melhorar como
