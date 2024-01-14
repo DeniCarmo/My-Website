@@ -1,0 +1,1 @@
+const t=e=>{document.querySelector("title").innerHTML=`Deni Carmo | ${e.title}`,document.querySelector('meta[property="og:title"]').content=`Deni Carmo | ${e.title}`,document.querySelector('meta[name="description"').content=e.description};export{t as a};
