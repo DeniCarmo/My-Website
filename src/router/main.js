@@ -21,6 +21,10 @@ const routes = [
     name: 'Contact',
     component: () => import(/* webpackChunkName: "PageContact" */ '@/pages/Contact.vue'),
   },
+  {
+    path: '/:pathMatch(.*)*',
+    redirect: '/',
+  },
 ];
 
 const router = createRouter({
