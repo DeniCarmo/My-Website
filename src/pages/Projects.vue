@@ -14,7 +14,7 @@
 
 <script>
 import { defineAsyncComponent } from 'vue';
-import works from '@/assets/works/works.js';
+import works from '@/components/works/works.js';
 import applySEO from '@/globals/applySEO.js';
 export default {
   data() {
