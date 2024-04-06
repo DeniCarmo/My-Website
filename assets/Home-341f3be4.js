@@ -1,0 +1,12 @@
+import{a}from"./applySEO-c23d6e36.js";import{_ as c,r as l,g as u,w as r,T as p,o as m,b as e,t as n,k as s,f as _,p as h,l as v}from"./index-363b81a8.js";const f={data(){return{content:{pt:{text:`
+            Meu nome é Denilson, mas pode me chamar de Deni, sou um desenvolvedor front end e moro em
+            Araçatuba - SP. Esta é a minha casa na internet, aqui verá minhas
+            habilidades, meus trabalhos e meus projetos. Estou sempre estudando e procurando melhorar como
+            profissional. Fique à vontade para olhar e caso goste do que vê, é mais do que bem vindo(a)
+            para 
+          `,link:"entrar em contato"},en:{text:`
+            My name is Denilson, but you may call me Deni, I'm a front end developer based in 
+            Araçatuba - SP, Brazil. This is my home on the internet, here you'll see 
+            my skills, my works and my projects. I'm always studying and looking to grow as a professional. 
+            Feel free to take a look and if you like what you see, you're more than welcome to 
+          `,link:"get in touch"}}}},computed:{contentLang(){return this.$store.state.lang==="pt-BR"?this.content.pt:this.content.en},currentLang(){return this.$store.state.lang}},watch:{currentLang(t){t==="pt-BR"?a({title:"Desenvolvedor Front-End",description:"Deni Carmo - Desenvolvedor front-end | Vue.js | Nuxt.js | React.js"}):a({title:"Front-End Developer",description:"Deni Carmo - Front-end developer | Vue.js | Nuxt.js | React.js"})}},mounted(){this.$store.state.lang==="pt-BR"?a({title:"Desenvolvedor Front-End",description:"Deni Carmo - Desenvolvedor front-end | Vue.js | Nuxt.js | React.js"}):a({title:"Front-End Developer",description:"Deni Carmo - Front-end developer | Vue.js | Nuxt.js | React.js"})}},d=t=>(h("data-v-e524dd0a"),t=t(),v(),t),b={id:"about",class:"about"},g=d(()=>e("div",{class:"about-bg"},[e("div",{class:"about-bg__mask"})],-1)),D={class:"about-title"},y=d(()=>e("h2",{class:"about-subtitle"},"Deni Carmo",-1)),k={class:"about-text text-center"},x={class:"about-text"};function j(t,F,w,B,R,o){const i=l("router-link");return m(),u(p,{name:"fadeIn",appear:""},{default:r(()=>[e("section",b,[g,e("h1",D,n(o.currentLang==="pt-BR"?"Desenvolvedor Front-end":"Front-end Developer"),1),y,e("span",k,n(o.currentLang==="pt-BR"?"Olá!":"Hello!"),1),e("span",x,[s(n(o.contentLang.text)+" ",1),_(i,{to:"/contact",class:"about-link"},{default:r(()=>[s(n(o.contentLang.link),1)]),_:1}),s(". ")])])]),_:1})}const I=c(f,[["render",j],["__scopeId","data-v-e524dd0a"]]);export{I as default};
