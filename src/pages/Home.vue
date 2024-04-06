@@ -4,8 +4,14 @@
       <div class="about-bg">
         <div class="about-bg__mask"></div>
       </div>
-      <span class="about-title">
-        {{ $store.state.lang === 'pt-BR' ? 'Olá!' : 'Hello!' }}
+      <h1 class="about-title">
+        {{ currentLang === 'pt-BR' ? 'Desenvolvedor Front-end' : 'Front-end Developer' }}
+      </h1>
+
+      <h2 class="about-subtitle">Deni Carmo</h2>
+
+      <span class="about-text text-center">
+        {{ currentLang === 'pt-BR' ? 'Olá!' : 'Hello!' }}
       </span>
 
       <span class="about-text">
@@ -111,6 +117,21 @@ export default {
       justify-content: center;
       flex-basis: 100%;
       text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    &-subtitle {
+      font-family: $sulphur;
+      font-size: 22px;
+      line-height: 22px;
+      font-weight: 700;
+      color: $color-main;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-basis: 100%;
+      text-transform: uppercase;
+      margin-bottom: 15px;
       letter-spacing: 0.5px;
     }
 

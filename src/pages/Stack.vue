@@ -20,16 +20,28 @@
               <div class="tools-item--wrapper">
                 <div class="tools-item col-6 col-md-4">
                   <div class="tools-img">
-                    <img src="@/assets/img/sass-icon.png" alt="SASS" title="SASS" />
+                    <img
+                      src="@/assets/img/sass-icon.png"
+                      alt="SASS"
+                      width="80px"
+                      height="80px"
+                      title="SASS"
+                    />
                   </div>
-                  <span class="tools-desc">SASS</span>
+                  <h2 class="tools-desc">SASS</h2>
                 </div>
 
                 <div class="tools-item col-6 col-md-4">
                   <div class="tools-img">
-                    <img src="@/assets/img/jquery-icon.png" alt="jQuery" title="jQuery" />
+                    <img
+                      src="@/assets/img/jquery-icon.png"
+                      alt="jQuery"
+                      width="80px"
+                      height="80px"
+                      title="jQuery"
+                    />
                   </div>
-                  <span class="tools-desc">jQuery</span>
+                  <h2 class="tools-desc">jQuery</h2>
                 </div>
               </div>
             </SwiperSlide>
@@ -41,17 +53,25 @@
                     <img
                       src="@/assets/img/javascript-icon.png"
                       alt="Javascript"
+                      width="80px"
+                      height="80px"
                       title="Javascript"
                     />
                   </div>
-                  <span class="tools-desc">Javascript</span>
+                  <h2 class="tools-desc">Javascript</h2>
                 </div>
 
                 <div class="tools-item col-6 col-md-4">
                   <div class="tools-img">
-                    <img src="@/assets/img/vuejs-icon.png" alt="Vue.js" title="Vue.js" />
+                    <img
+                      src="@/assets/img/vuejs-icon.png"
+                      alt="Vue.js"
+                      width="80px"
+                      height="80px"
+                      title="Vue.js"
+                    />
                   </div>
-                  <span class="tools-desc">Vue.js</span>
+                  <h2 class="tools-desc">Vue.js</h2>
                 </div>
               </div>
             </SwiperSlide>
@@ -60,16 +80,28 @@
               <div class="tools-item--wrapper">
                 <div class="tools-item col-6 col-md-4">
                   <div class="tools-img">
-                    <img src="@/assets/img/vuex-icon.png" alt="Vuex" title="Vuex" />
+                    <img
+                      src="@/assets/img/vuex-icon.png"
+                      alt="Vuex"
+                      width="80px"
+                      height="80px"
+                      title="Vuex"
+                    />
                   </div>
-                  <span class="tools-desc">Vuex</span>
+                  <h2 class="tools-desc">Vuex</h2>
                 </div>
 
                 <div class="tools-item col-6 col-md-4">
                   <div class="tools-img">
-                    <img src="@/assets/img/reactjs-icon.png" alt="React.js" title="React.js" />
+                    <img
+                      src="@/assets/img/reactjs-icon.png"
+                      alt="React.js"
+                      width="80px"
+                      height="80px"
+                      title="React.js"
+                    />
                   </div>
-                  <span class="tools-desc">React.js</span>
+                  <h2 class="tools-desc">React.js</h2>
                 </div>
               </div>
             </SwiperSlide>
@@ -81,17 +113,25 @@
                     <img
                       src="@/assets/img/styled-components-icon.svg"
                       alt="Styled Components"
+                      width="80px"
+                      height="80px"
                       title="Styled Components"
                     />
                   </div>
-                  <span class="tools-desc">Styled Components</span>
+                  <h2 class="tools-desc">Styled Components</h2>
                 </div>
 
                 <div class="tools-item col-6 col-md-4">
                   <div class="tools-img">
-                    <img src="@/assets/img/bootstrap.png" alt="Bootstrap" title="Bootstrap" />
+                    <img
+                      src="@/assets/img/bootstrap.png"
+                      alt="Bootstrap"
+                      width="80px"
+                      height="80px"
+                      title="Bootstrap"
+                    />
                   </div>
-                  <span class="tools-desc">Bootstrap</span>
+                  <h2 class="tools-desc">Bootstrap</h2>
                 </div>
               </div>
             </SwiperSlide>
@@ -103,10 +143,12 @@
                     <img
                       src="@/assets/img/foundation-icon.png"
                       alt="Foundation"
+                      width="80px"
+                      height="80px"
                       title="Foundation"
                     />
                   </div>
-                  <span class="tools-desc">Foundation</span>
+                  <h2 class="tools-desc">Foundation</h2>
                 </div>
 
                 <div class="tools-item col-6 col-md-4">
@@ -114,10 +156,12 @@
                     <img
                       src="@/assets/img/tailwind-icon.png"
                       alt="Tailwind CSS"
+                      width="80px"
+                      height="80px"
                       title="Tailwind CSS"
                     />
                   </div>
-                  <span class="tools-desc">Tailwind CSS</span>
+                  <h2 class="tools-desc">Tailwind CSS</h2>
                 </div>
               </div>
             </SwiperSlide>
@@ -126,16 +170,28 @@
               <div class="tools-item--wrapper">
                 <div class="tools-item col-6 col-md-4">
                   <div class="tools-img">
-                    <img src="@/assets/img/vite-icon.png" alt="Vite" title="Vite" />
+                    <img
+                      src="@/assets/img/vite-icon.png"
+                      alt="Vite"
+                      width="80px"
+                      height="80px"
+                      title="Vite"
+                    />
                   </div>
-                  <span class="tools-desc">Vite</span>
+                  <h2 class="tools-desc">Vite</h2>
                 </div>
 
                 <div class="tools-item col-6 col-md-4">
                   <div class="tools-img">
-                    <img src="@/assets/img/nodejs-icon.png" alt="NodeJs" title="NodeJs" />
+                    <img
+                      src="@/assets/img/nodejs-icon.png"
+                      alt="NodeJs"
+                      width="80px"
+                      height="80px"
+                      title="NodeJs"
+                    />
                   </div>
-                  <span class="tools-desc">NodeJs</span>
+                  <h2 class="tools-desc">NodeJs</h2>
                 </div>
               </div>
             </SwiperSlide>
@@ -144,16 +200,28 @@
               <div class="tools-item--wrapper">
                 <div class="tools-item col-6 col-md-4">
                   <div class="tools-img">
-                    <img src="@/assets/img/mongodb-icon.png" alt="MongoDB" title="MongoDB" />
+                    <img
+                      src="@/assets/img/mongodb-icon.png"
+                      alt="MongoDB"
+                      width="80px"
+                      height="80px"
+                      title="MongoDB"
+                    />
                   </div>
-                  <span class="tools-desc">MongoDB</span>
+                  <h2 class="tools-desc">MongoDB</h2>
                 </div>
 
                 <div class="tools-item col-6 col-md-4">
                   <div class="tools-img">
-                    <img src="@/assets/img/github.png" alt="Github" title="Github" />
+                    <img
+                      src="@/assets/img/github.png"
+                      alt="Github"
+                      width="80px"
+                      height="80px"
+                      title="Github"
+                    />
                   </div>
-                  <span class="tools-desc">Github</span>
+                  <h2 class="tools-desc">Github</h2>
                 </div>
               </div>
             </SwiperSlide>

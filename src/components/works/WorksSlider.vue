@@ -286,6 +286,10 @@ export default {
     flex-basis: 40%;
     max-height: 900px;
 
+    @media (min-width: 801px) {
+      padding: 0 10px;
+    }
+
     img {
       width: 100%;
       height: auto;
@@ -302,6 +306,10 @@ export default {
     flex-wrap: wrap;
     grid-gap: 15px;
 
+    @media (max-width: 800px) {
+      justify-content: center;
+    }
+
     &__title {
       font-family: $sulphur;
       font-size: 24px;
@@ -311,6 +319,10 @@ export default {
       text-transform: uppercase;
       flex-basis: 100%;
       margin-bottom: 10px;
+
+      @media (max-width: 800px) {
+        text-align: center;
+      }
     }
 
     &__item {
@@ -319,7 +331,7 @@ export default {
       height: auto;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       flex-flow: column;
       align-self: stretch;
     }

@@ -1,9 +1,12 @@
 <template>
   <router-link to="/" class="logo" title="Deni Carmo">
-    <h1 class="logo-title">
-      <img src="@/assets/img/deni-logo.png" alt="Deni Carmo Logo" class="logo-img" />
-      Deni Carmo
-    </h1>
+    <img
+      src="@/assets/img/deni-logo.png"
+      alt="Deni Carmo Logo"
+      width="80px"
+      height="35px"
+      class="logo-img"
+    />
   </router-link>
 </template>
 
@@ -31,13 +34,6 @@ export default {};
     height: auto;
     max-height: 35px;
     min-height: 35px;
-  }
-
-  &-title {
-    font-size: 0;
-    line-height: 0;
-    height: auto;
-    margin: 0;
   }
 }
 
